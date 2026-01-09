@@ -1,0 +1,50 @@
+# Git
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+.pnpm-store/
+
+# SvelteKit build artifacts (we want the build output)
+.svelte-kit/
+
+# Environment (will be injected at runtime)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+coverage/
+playwright-report/
+test-results/
+
+# Specs and docs (not needed in container)
+specs/
+*.md
+!README.md
+
+# Docker files themselves
+Dockerfile*
+docker-compose*.yml
+.dockerignore
